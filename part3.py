@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """Projet ODATA par Narjisse LASRI et Estelle DUHEM"""
 
+#Clustering des pays
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
