@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """Projet ODATA par Narjisse LASRI et Estelle DUHEM"""
 
+#clustering des données
+
 import pandas as pd
 import numpy as np
 from sklearn import metrics
-
-
 from functions import *
 
 def part2():
@@ -31,8 +31,7 @@ def part2():
     affichage_plot('Nuage de points de pathbased', pathbased, pathbased.iloc[:,2].to_numpy())
     
     
-    #--> Méthode k-means 
-    
+    #--> Méthode k-means    
     
     
     affichage_plot('Résultat k-means sur g2-2-20', g2_20, apply_kmeans(g2_20, 2, 4))
@@ -53,7 +52,6 @@ def part2():
     
     
     #--> Méthode mélange de Gaussiennes
-    
     
     
     affichage_plot('Résultat Gaussian Mixture de g2-2-20', g2_20, apply_gaussianMixture(g2_20, 2))
